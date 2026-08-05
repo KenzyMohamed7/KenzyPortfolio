@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="contact.metaTitle">Contact — Kenzy Mohamed</title>
+<meta name="description" content="Get in touch with Kenzy Mohamed for hosting, presenting, and public relations opportunities." data-i18n-content="contact.metaDesc">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800;900&family=Anton&family=Inter:wght@400;500;600;700;800&family=Zilla+Slab:ital@0;1&family=Cairo:wght@400;600;700;800&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+
+<div class="preloader" aria-hidden="true">
+  <div class="preloader-logo" data-i18n-html="common.logo">KENZY <span>MOHAMED</span></div>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo" data-i18n-html="common.logo">KENZY <span>MOHAMED</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="showreel.html" data-i18n="nav.showreel">Showreel</a>
+      <a href="achievements.html" data-i18n="nav.achievements">Achievements</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </div>
+    <div class="nav-controls">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">العربية</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb reveal reveal-up"><a href="index.html" data-i18n="nav.home">Home</a> / <span data-i18n="contact.breadcrumb">Contact</span></div>
+    <span class="eyebrow reveal reveal-up" data-delay="50" data-i18n="common.contactEyebrow">Contact</span>
+    <h1 class="reveal reveal-up" data-delay="100" data-i18n-html="contact.heroH1">Let's work<br>together</h1>
+    <p class="reveal reveal-up" data-delay="180" data-i18n="contact.heroP">Open to hosting, presenting, and public relations opportunities across television, radio, and events.</p>
+  </div>
+</header>
+
+<section class="light" style="padding-top:72px;">
+  <div class="wrap contact-grid">
+    <div class="contact-info reveal reveal-left">
+      <h3 data-i18n="contact.getInTouchHeading">Get in touch</h3>
+      <div class="contact-item">
+        <div class="contact-icon">✉</div>
+        <div>
+          <h4 data-i18n="contact.emailLabel">Email</h4>
+          <a href="mailto:nkenzy77@gmail.com">nkenzy77@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">☎</div>
+        <div>
+          <h4 data-i18n="contact.phoneLabel">Phone</h4>
+          <a href="tel:+201282333616">01282333616</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">in</div>
+        <div>
+          <h4 data-i18n="contact.linkedinLabel">LinkedIn</h4>
+          <a href="https://linkedin.com/in/kenzy-mohamed-aa17b4229" target="_blank" rel="noopener">/kenzy-mohamed</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div>
+          <h4 data-i18n="contact.locationLabel">Location</h4>
+          <p data-i18n="contact.locationVal">Giza, Egypt</p>
+        </div>
+      </div>
+      <div style="margin-top:32px;padding:24px;background:var(--navy);border-radius:8px;color:var(--cream);">
+        <p style="font-size:14px;color:rgba(250,246,238,0.7);margin-bottom:12px;" data-i18n="contact.availableFor">Available for:</p>
+        <div class="pill-group">
+          <span class="pill" data-i18n="contact.pillTvHosting">TV Hosting</span>
+          <span class="pill" data-i18n="contact.pillRadio">Radio</span>
+          <span class="pill" data-i18n="contact.pillConferences">Conferences</span>
+          <span class="pill" data-i18n="contact.pillCeremonies">Ceremonies</span>
+          <span class="pill" data-i18n="contact.pillPrProjects">PR Projects</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form reveal reveal-right" data-delay="150">
+      <h3 data-i18n="contact.formHeading">Send a message</h3>
+      <div class="form-success" role="alert" data-i18n="contact.formSuccess"></div>
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name" data-i18n="contact.formName">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" data-i18n-placeholder="contact.formNamePh" required>
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="contact.formEmail">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@email.com" data-i18n-placeholder="contact.formEmailPh" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject" data-i18n="contact.formSubject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="hosting" data-i18n="contact.formSubjectHosting">TV / Event Hosting</option>
+            <option value="radio" data-i18n="contact.formSubjectRadio">Radio Presenting</option>
+            <option value="pr" data-i18n="contact.formSubjectPR">Public Relations</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message" data-i18n="contact.formMessage">Message</label>
+          <textarea id="message" name="message" placeholder="Tell Kenzy about your project..." data-i18n-placeholder="contact.formMessagePh" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid" style="width:100%;justify-content:center;border:none;cursor:pointer;" data-i18n="contact.formSend">Send Message</button>
+        <button type="button" id="waButton" class="btn btn-whatsapp" style="width:100%;justify-content:center;border:none;cursor:pointer;margin-top:12px;" data-i18n="contact.formWhatsapp">Send via WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h2 data-i18n="common.logoPlain">KENZY MOHAMED</h2>
+        <p data-i18n="footer.tagline">Media Presenter · TV Host · Public Relations Professional based in Giza, Egypt.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="showreel.html" data-i18n="nav.showreel">Showreel</a>
+        <a href="achievements.html" data-i18n="nav.achievements">Achievements</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:nkenzy77@gmail.com">nkenzy77@gmail.com</a>
+        <a href="tel:+201282333616">01282333616</a>
+        <a href="https://linkedin.com/in/kenzy-mohamed-aa17b4229" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.copy">© Kenzy Mohamed</span>
+      <span data-i18n="footer.tagShort">Media Presenter · TV Host · Public Relations</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" aria-label="Back to top">↑</button>
+<script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
