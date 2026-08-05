@@ -151,7 +151,9 @@
         heroP: 'A selection of hosting, broadcasting, and public-speaking moments from television, forums, and official ceremonies.',
         ctaHeading: 'Get in Touch with Kenzy',
         ctaDesc: 'Available for television, radio, conferences, and ceremonial hosting across Egypt and the region.',
-        ctaButton: 'Get in Touch'
+        ctaButton: 'Get in Touch',
+        partnersEyebrow: 'Success Partners',
+        partnersMore: 'Success is a step, and the journey continues.'
       },
       contact: {
         metaTitle: 'Contact — Kenzy Mohamed',
@@ -334,7 +336,9 @@
         heroP: 'مجموعة مختارة من لحظات التقديم، والبث، والكلام قدام الجمهور، من التليفزيون والمنتديات والاحتفالات الرسمية.',
         ctaHeading: 'تواصل مع كنزي',
         ctaDesc: 'متاحة لتقديم برامج تليفزيون، وراديو، ومؤتمرات، واحتفالات في مصر والمنطقة.',
-        ctaButton: 'كلم كنزي'
+        ctaButton: 'كلم كنزي',
+        partnersEyebrow: 'شركاء النجاح',
+        partnersMore: 'النجاح خطوة، والطريق مستمر.'
       },
       contact: {
         metaTitle: 'تواصل معايا — كنزي محمد',

@@ -326,6 +326,40 @@ html[dir="rtl"] .video-channel{left:auto;right:12px;}
   padding:4px 10px;border-radius:20px;font-weight:700;white-space:nowrap;
 }
 
+/* PARTNERS / logos */
+.partners{padding:96px 0;}
+.partners .section-head{margin-right:auto;margin-left:auto;}
+.partners-title{
+  font-family:'Anton',sans-serif;
+  font-weight:400;
+  font-size:clamp(11px,1.4vw,14px);
+  color:var(--red);
+  letter-spacing:2px;
+  text-align:center;
+}
+.partners-grid{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+  gap:clamp(28px,5vw,64px);margin-top:16px;
+}
+.partner-logo{
+  flex:0 1 auto;
+  width:clamp(160px,22vw,240px);
+  height:clamp(96px,13vw,140px);
+  display:flex;align-items:center;justify-content:center;
+}
+.partner-logo img{
+  max-width:100%;max-height:100%;width:auto;height:auto;
+  object-fit:contain;
+}
+.partners-more{
+  margin-top:36px;text-align:center;
+  color:#8a8f98;font-weight:600;font-size:16px;letter-spacing:.3px;
+}
+@media (max-width:760px){
+  .partners-grid{gap:20px;}
+  .partner-logo{width:44%;}
+}
+
 /* ACHIEVEMENTS */
 .highlight-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(230px,1fr));gap:22px;}
 .highlight-card{
@@ -547,7 +581,9 @@ html[dir="rtl"] .preloader-logo,
 html[dir="rtl"] .onair,
 html[dir="rtl"] .timeline-year,
 html[dir="rtl"] .stat-card .num,
-html[dir="rtl"] .highlight-card .num{
+html[dir="rtl"] .highlight-card .num,
+html[dir="rtl"] .partners-title,
+html[dir="rtl"] .partners .section-head h2{
   font-family:'Alexandria','Cairo',Tajawal,sans-serif;
   letter-spacing:normal;
   font-weight:800;
